@@ -1,0 +1,37 @@
+.the-footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2% 8%;
+    background-color: #000000;
+    margin-top: 20px;
+    justify-content: space-between;
+    color: white;
+}
+
+.footer-heading{
+    margin: 0;
+    margin-bottom: 8px;
+    font-size: 20px;
+}
+
+.footer-data{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.footer-data:hover{
+    color: rgb(6, 128, 158);
+}
+
+.address-data{
+    font-size: 16px;
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.address-data:hover{
+    color: rgb(6, 128, 158);
+}

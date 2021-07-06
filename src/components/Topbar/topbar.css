@@ -1,0 +1,110 @@
+.header{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    border-bottom: 2px solid rgb(161, 161, 161);
+    padding: 10px 50px;
+    align-items: center;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.logo-title{
+    display: flex;
+    text-align: center;
+}
+
+.logo-title h1{
+    margin: 0;
+}
+
+.logo-title h1 span{
+    color: rgb(38, 88, 90);
+}
+
+.menus{
+    display: flex;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+    .menus{
+        display: none;
+    }
+}
+
+.menus a{
+    margin: 0 25px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.user-cart{
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.search-icon{
+    margin: 0 10px;
+}
+
+@media screen and (max-width: 500px) {
+    .search-icon{
+        display: none;
+    }
+}
+
+.cart-icon{
+    margin: 0 25px;
+}
+
+.cart-icon i{
+    position: relative;
+}
+
+.cart-icon i span{
+    position: absolute;
+    top: -15px;
+    right: -11px;
+    background-color: rgb(106, 193, 196);
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    font-size: 12px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-icon{
+    margin: 0 10px;
+    height: 36px;
+    width: 36px;
+    border-radius: 18px;
+    background-color: rgb(106, 193, 196);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 500px) {
+    .user-icon{
+        display: none;
+    }
+}
+
+i{
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

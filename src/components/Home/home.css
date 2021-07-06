@@ -1,0 +1,33 @@
+.clothing-section{
+    margin-top: 50px;
+}
+
+.clothing-section h2{
+    margin-left: 7%;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.accessories-section{
+    margin-top: 50px;
+}
+
+.accessories-section h2{
+    margin-left: 7%;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.card-wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px 65px;
+}
+
+.wait-loader{
+    width: 100vw;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
